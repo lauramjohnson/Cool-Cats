@@ -11,6 +11,7 @@
 		FD4BF9B0280E232500A07C63 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FD4BF9AF280E232500A07C63 /* ContentView.swift */; };
 		FD4BF9B2280E232600A07C63 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FD4BF9B1280E232600A07C63 /* Assets.xcassets */; };
 		FD4BF9B5280E232600A07C63 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FD4BF9B4280E232600A07C63 /* Preview Assets.xcassets */; };
+		FD4BF9BD280E242000A07C63 /* QuizInstructionView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FD4BF9BC280E242000A07C63 /* QuizInstructionView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -19,6 +20,7 @@
 		FD4BF9AF280E232500A07C63 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		FD4BF9B1280E232600A07C63 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		FD4BF9B4280E232600A07C63 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		FD4BF9BC280E242000A07C63 /* QuizInstructionView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QuizInstructionView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -51,6 +53,7 @@
 		FD4BF9AC280E232500A07C63 /* Cool Cats */ = {
 			isa = PBXGroup;
 			children = (
+				FD4BF9BB280E23C500A07C63 /* Views */,
 				FD4BF9AD280E232500A07C63 /* Cool_CatsApp.swift */,
 				FD4BF9AF280E232500A07C63 /* ContentView.swift */,
 				FD4BF9B1280E232600A07C63 /* Assets.xcassets */,
@@ -65,6 +68,14 @@
 				FD4BF9B4280E232600A07C63 /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		FD4BF9BB280E23C500A07C63 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				FD4BF9BC280E242000A07C63 /* QuizInstructionView.swift */,
+			);
+			path = Views;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -139,6 +150,7 @@
 			files = (
 				FD4BF9B0280E232500A07C63 /* ContentView.swift in Sources */,
 				FD4BF9AE280E232500A07C63 /* Cool_CatsApp.swift in Sources */,
+				FD4BF9BD280E242000A07C63 /* QuizInstructionView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
